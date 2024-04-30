@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Receitas</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Confira as receitas disponíveis!</h2>
+        <br>
+        {% for receita in receitas %}
+        <p><b>{{ receita.nome }}</b><br>{{ receita.descricao }}</p>
+        {% endfor %}
+    </div>
+</body>
+</html>

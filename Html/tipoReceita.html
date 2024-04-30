@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
 </head>
 <body>
-
     <header>
 
         <h1>NomeDoSite</h1>
@@ -14,9 +14,26 @@
     </header>
     
     <main>
+        <select id="selecao">
+            <option value="">Selecione</option>
+            <option value="salgados">Salgado</option>
+            <option value="doces">Doces</option>
+        </select>
+    
+        <div id="conteudo-salgados" style="display: none;">
+            <h2>Salgados:</h2>
+            <p>-------COLOCAR AS RECEITAS-------</p>
+        </div>
+    
+        <div id="conteudo-doces" style="display: none;">
+            <h2>Doces:</h2>
+            <p>-------COLOCAR AS RECEITAS-------</p>
+        </div>
+    
+
 
     </main>
-  <footer>
+    <footer>
         <h2>Contato: ...............</h2>
 
         <p>© 2024 NomeDoSite.,com Todos os Direitos Reservados</p>
@@ -25,5 +42,7 @@
 
 
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="tipoReceita.js"></script>
 </body>
 </html>
