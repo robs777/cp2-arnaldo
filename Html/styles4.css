@@ -1,0 +1,64 @@
+/* Estilo geral */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fae9e9;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: white;
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+.cabecalho-img {
+    background-image: url("banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: 200px;
+}
+
+/* Seleção */
+#selecao {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 20px auto;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Conteúdo */
+main {
+    padding: 40px;
+}
+
+/* Conteúdo Salgados e Doces */
+#conteudo-salgados, #conteudo-doces {
+    margin-top: 20px;
+}
+
+/* Rodapé */
+footer {
+    background-color: rgb(224, 220, 220);
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer h2, footer p {
+    margin: 0;
+}
